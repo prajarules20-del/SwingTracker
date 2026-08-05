@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded background circle -->
+    <path
+        android:fillColor="#6750A4"
+        android:pathData="M54,0 C83.8,0 108,24.2 108,54 C108,83.8 83.8,108 54,108 C24.2,108 0,83.8 0,54 C0,24.2 24.2,0 54,0 Z"/>
+
+    <!-- Three ascending bars -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,64 L42,64 L42,80 L30,80 Z"/>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M48,52 L60,52 L60,80 L48,80 Z"/>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M66,36 L78,36 L78,80 L66,80 Z"/>
+
+    <!-- Zigzag "swing" line -->
+    <path
+        android:strokeColor="#34D399"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,76 L48,50 L64,62 L86,28"/>
+
+    <!-- Arrowhead -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M86,28 L74,30 L84,40 Z"/>
+</vector>

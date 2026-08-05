@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Three ascending bars, like a simple price chart -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,64 L42,64 L42,80 L30,80 Z"/>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M48,52 L60,52 L60,80 L48,80 Z"/>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M66,36 L78,36 L78,80 L66,80 Z"/>
+
+    <!-- Zigzag "swing" line (down-up-down-up) trending overall upward -->
+    <path
+        android:strokeColor="#34D399"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,76 L48,50 L64,62 L86,28"/>
+
+    <!-- Arrowhead at the end of the swing line -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M86,28 L74,30 L84,40 Z"/>
+</vector>
